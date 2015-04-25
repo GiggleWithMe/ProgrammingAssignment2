@@ -10,6 +10,17 @@ of each line. I apologise if that made the comments more confusing.
 Thanks for taking the time to check my assignment. I'd appreciate any
 comments you might have.
 
+I hope your assignment goes well too!
+
+
+
+
+
+
+
+
+
+
 
 
 ### Introduction
