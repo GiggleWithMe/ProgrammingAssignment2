@@ -3,7 +3,10 @@
 ## the result. The following two functions make us of caching to first test
 ## if an existing result exists, then to create the inverse if it doesn't.
 
-##makeCacheMatrix is a function that creates a list of 
+## m"akeCacheMatrix" is a function that creates a list of functions used in the
+## next fucntion. The functions stored: "set" changes the data in "x"; "get"
+## simply returns the value in "x"; similar to these, "setinv" takes the value
+## "solve" and stores it to "m", while "getinv" recalls the value in "m".
 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
@@ -18,7 +21,12 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## "cacheSolve" is where the work is done. First, it calls a result from "getinv"
+## and stores it as "m"; second, it tests if this value is NULL or has a result to
+## return; third, if there is a NULL value in "m", it proceeds to use other functions 
+## in "makeCacheMatrix" to draw in data, find the inverse of the matrix, and set the 
+## value into "m", replacing the NULL value; finally it prints the inverse in 
+## object "m".
 
 cacheSolve <- function(x, ...) {
   m<-x$getinv()
