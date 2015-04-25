@@ -12,17 +12,17 @@ comments you might have.
 
 I hope your assignment goes well too!
 
-
-
-
-
-
-
-
-
-
-
-
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 ### Introduction
 
 This second programming assignment will require you to write an R
