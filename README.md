@@ -1,3 +1,17 @@
+### Howdy!
+
+This repo contains my results for the Assignment 2 of the R Programming 
+Coursera course. I tried to follow the instructions as best I could for
+the assignment. I have assumed that the scorers for this assignment used
+the same functions as I had, hence the comments try to explain what's
+happening in each section all together rather than a specific description
+of each line. I apologise if that made the comments more confusing.
+
+Thanks for taking the time to check my assignment. I'd appreciate any
+comments you might have.
+
+
+
 ### Introduction
 
 This second programming assignment will require you to write an R
